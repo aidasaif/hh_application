@@ -3,8 +3,8 @@ from pyspark.sql.functions import col, isnull
 import os
 import pyspark
 #
-# os.environ["HADOOP_HOME"] = r"C:\hadoop"  # путь к Hadoop, если ты его используешь
-# os.environ["PYSPARK_PYTHON"] = r"C:\Users\Admin\PycharmProjects\hh_application\.venv310\Scripts\python.exe"
+os.environ["HADOOP_HOME"] = r"C:\hadoop"
+os.environ["PYSPARK_PYTHON"] = r"C:\Users\Admin\PycharmProjects\hh_application\.venv310\Scripts\python.exe"
 
 
 session = SparkSession.builder \
